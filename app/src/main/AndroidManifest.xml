@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.englishforkids.fatmanur.englishforkids">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoduzelt"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoduzelt"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.AnaSayfa">
+
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Colors"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+
+            <!-- To support split actionbar below API Level 14 -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Numbers"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+
+            <!-- To support split actionbar below API Level 14 -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Shapes"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+
+            <!-- To support split actionbar below API Level 14 -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Vehicles"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+
+            <!-- To support split actionbar below API Level 14 -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Pets"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+
+            <!-- To support split actionbar below API Level 14 -->
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Vegetables"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.englishforkids.fatmanur.englishforkids.Fruits"
+            android:parentActivityName="info.androidhive.actionbar.AnaSayfa">
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.Songs" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.ColorsSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.VehiclesSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.NumbersSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.ShapesSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.FruitsSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.VegetablesSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.PetsSong" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.TrueFalseGame" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.QuizActivity" />
+        <activity android:name="com.englishforkids.fatmanur.englishforkids.ResultsActivity" />
+    </application>
+
+</manifest>

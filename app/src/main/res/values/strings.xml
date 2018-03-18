@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">English For Kids</string>
+    <string name="title_activity_colors">Colors</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9343067091749542/7879043263</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ranklabel">"Rank : "</string>
+
+
+</resources>
